@@ -21,7 +21,7 @@ export class AppComponent {
 interface Player {
   name: string;
   age: number;
-  photo: string;
+  photo?: string;
   sport: string;
   salary: number;
 }
