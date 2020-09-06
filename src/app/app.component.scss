@@ -8,7 +8,7 @@
     border: 2px solid crimson;
   }
 
-  & .player-span {
+  .player-span {
     background: #f3f3f3;
     width: 200px;
     border: 2px solid black;
@@ -20,19 +20,19 @@
     flex-direction: column;
     align-items: center;
 
-    & .photo {
+    .photo {
       width: 125px;
       height: 125px;
       object-fit: cover;
       margin-bottom: 10px;
     }
 
-    & .name {
+    .name {
       display: flex;
       flex-direction: row;
       align-items: center;
 
-      & .img-icon {
+      .img-icon {
         width: 20px;
         margin-right: 5px;
       }
